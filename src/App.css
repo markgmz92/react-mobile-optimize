@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -20,3 +21,99 @@
 .App-link {
   color: #09d3ac;
 }
+
+.card {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subject {
+  padding: 20px;
+}
+
+h1 {
+  display: flex;
+  color: red;
+  justify-content: center;
+}
+
+.box {
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.display {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  width: 100%;
+}
+
+.upcoming-events {
+  position: relative;
+}
+
+.top-header {
+  text-align: center;
+}
+
+.bottom-footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.mentor-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.activity-feed {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.mentor-slider {
+  position: relative;
+  color: red;
+  display: flex;
+}
+
+
+.image {
+  align-items: center;
+}
+
+.custom-tag {
+  max-width: 20%;
+  height: 20px;
+  background: black;
+}
+form {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
