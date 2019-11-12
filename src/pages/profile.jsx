@@ -16,7 +16,7 @@ const ProfilePage = ( props ) => {
         <div>
             <Card className = "activity-feed">
                 <Container fluid>
-                    <h2>Your activity feed</h2>
+                    <span>Your activity feed</span>
                 </Container>
             </Card>
         </div>
@@ -27,10 +27,11 @@ const ProfilePage = ( props ) => {
             <SlideView />
             </Card>
         </div>
+        <div>
             <nav className ="bottom-footer">
         <h4>Footer</h4>
-        
-    </nav>
+            </nav>
+        </div>
         </div>
     );
 };

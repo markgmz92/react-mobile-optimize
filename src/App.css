@@ -36,7 +36,6 @@
 
 h1 {
   display: flex;
-  color: red;
   justify-content: center;
 }
 
@@ -55,26 +54,35 @@ h1 {
   align-items: center;
   justify-content: center;
 }
+
 .header {
+  position: relative;
   width: 100%;
+  background-color: whitesmoke;
 }
 
 .upcoming-events {
   position: relative;
+  font-size: 20px;
+  margin: 20px;
+  padding: 10%;
+  min-width: 50%;
+  min-height: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: tan;
 }
 
 .top-header {
   text-align: center;
 }
 
-.bottom-footer {
+profile-image {
   position: relative;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  align-items: center;
+  justify-content: center;
 }
-
 .mentor-profile {
   display: flex;
   flex-direction: column;
@@ -85,17 +93,48 @@ h1 {
 
 .activity-feed {
   position: relative;
-  display: flex;
+  font-size: 20px;
+  margin: 20px;
+  padding: 10%;
+  min-width: 50%;
+  min-height: 50%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  color: slategrey;
 }
 
 .mentor-slider {
   position: relative;
-  color: red;
-  display: flex;
+  font-size: 12px;
+  margin: 20px;
+  padding: 10%;
+  min-width: 40%;
+  min-height: 40%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  background-color: antiquewhite;
+}
+
+
+.mentor {
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.bottom-footer {
+  position: relative;
+  padding: 10px;
+  min-width: 40%;
+  min-height: 40%;
+  bottom: 0;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: whitesmoke;
 }
 
 
@@ -108,6 +147,7 @@ h1 {
   height: 20px;
   background: black;
 }
+
 form {
   min-height: 100vh;
   display: flex;

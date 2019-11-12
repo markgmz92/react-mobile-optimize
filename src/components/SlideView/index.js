@@ -5,13 +5,13 @@ import Slider from 'react-slick';
 
 const Wrapper = styled.div`
         width: 100%;
-        padding: 0.25px;
+        padding: 10px;
         margin: 20px;
 `;
 
 const Header = styled.div`
         width: 100%;
-        padding: 0.25px;
+        padding: 10px;
         margin: 20px;
 `;
 export default class SlideView extends React.Component {
@@ -25,23 +25,23 @@ export default class SlideView extends React.Component {
                     infinite={false}
                     dots={true}
                 >
-                <Header>
-                <h1>Name:Mentor One</h1>
-                <h3>Profression:</h3>
-                <h3>Company:</h3>
-                <h4>Last Session Date:</h4>
+                <Header className= "caption">
+                <text>Name:Mentor Two</text>
+                <text>Profression:</text>
+                <text>Company:</text>
+                <text>Last Session Date:</text>
                 </Header>
-                <Header>
-                <h1>Name:Mentor Two</h1>
-                <h3>Profression:</h3>
-                <h3>Company:</h3>
-                <h4>Last Session Date:</h4>
+                <Header className= "caption">
+                <text>Name:Mentor Two</text>
+                <text>Profression:</text>
+                <text>Company:</text>
+                <text>Last Session Date:</text>
                 </Header>
-                <Header>
-                <h1>Name:Mentor Two</h1>
-                <h3>Profression:</h3>
-                <h3>Company:</h3>
-                <h4>Last Session Date:</h4>
+                <Header className= "caption">
+                <text>Name:Mentor Two</text>
+                <text>Profression:</text>
+                <text>Company:</text>
+                <text>Last Session Date:</text>
                 </Header>
                 </Slider>
             </Wrapper>
