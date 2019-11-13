@@ -1,38 +1,41 @@
-import React from "react";
-import { Card, CardBody, CardTitle, CardImg } from 'reactstrap';
+import React, { Component } from "react";
+import { Card, CardTitle, CardHeader, Container } from 'reactstrap';
+import SlideView from "../components/SlideView/index.js";
+import Avatar from "../components/Avatar/index.js"
 
-const MentorPage = (props ) => {
+const MentorPage = ( props ) => {
     return (
     <div>
-    <Card>
-        <CardImg id="image" top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
-        <CardBody className="mentor">
-          <CardTitle>Name</CardTitle>
-          <CardTitle>Profession</CardTitle>
-          <CardTitle>Company</CardTitle>
-          <CardTitle>Profile Intro</CardTitle>
-          <CardTitle>Skills</CardTitle>
-        </CardBody>
-    </Card>
-    <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
-        <CardBody className="mentor">
-          <CardTitle>Name</CardTitle>
-          <CardTitle>Profession</CardTitle>
-          <CardTitle>Profile Intro</CardTitle>
-          <CardTitle>Skills</CardTitle>
-        </CardBody>
-    </Card>
-    <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
-        <CardBody className="mentor">
-          <CardTitle>Name</CardTitle>
-          <CardTitle>Profession</CardTitle>
-          <CardTitle>Profile Intro</CardTitle>
-          <CardTitle>Skills</CardTitle>
-        </CardBody>
-    </Card>
-    </div>
+    <nav className ="top-header">
+        <h5>Entreprenuers Malaysia</h5>
+    </nav>
+        <div>
+            <Card className = "mentor-profile">
+            <Avatar />
+            <div class="content">
+            <div class ="header">Steve Jobs</div>
+            </div>
+            </Card>
+        </div>
+        <div>
+            <Card className = "mentor-profile">
+            <Avatar />
+            <h2> My Mentors</h2>
+            </Card>
+        </div>
+        <div>
+            <Card className = "mentor-profile">
+            <Avatar />
+            <h2> My Mentors</h2>
+            </Card>
+        </div>
+        
+        <div>
+            <nav className ="mentor-footer">
+            <h4>Footer</h4>
+            </nav>
+        </div>
+        </div>
     );
 };
 
