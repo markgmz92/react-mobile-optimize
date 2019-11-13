@@ -3,7 +3,7 @@ import LoginForm from "../components/LoginForm/index.js"
 
 const Login = (props) => {
     return (
-       < LoginForm />
+       < React />
     );
     
 };

@@ -39,6 +39,11 @@ h1 {
   justify-content: center;
 }
 
+h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-stretch: semi-expanded;
+}
+
 .box {
   color: red;
   display: flex;
@@ -61,39 +66,52 @@ h1 {
   background-color: whitesmoke;
 }
 
+.schedule {
+  display: block;
+  position: relative;
+  margin-left: 50px;
+  display: grid;
+}
 .upcoming-events {
   position: relative;
   font-size: 20px;
   margin: 20px;
   padding: 10%;
-  bottom: -10px;
+  bottom: -5%;
   min-width: 50%;
   min-height: 50%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: tan;
+  border-radius: 20px;
+  border: 1px solid;
+  line-height: 20px;
+  background-color: #E5E9F1
 }
 
 .top-header {
   text-align: center;
+  padding:3px;
+  margin-top: 10px;
+  line-height: 10%;
 }
 
+
 .mentor-profile {
-  position: relative;
-  font-size: 12px;
-  margin: 20px;
-  padding: 10px;
+  display: block;
+  font-size: 14px;
+  margin: 10px;
+  padding: 10%;
   bottom: -40px;
   min-width: 40%;
   min-height: 40%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: left;
-  background-color: antiquewhite;
+  line-height: 20px;
+  background-color: #dfe3ee;
+  border-radius: 10px;
+  border: 1px solid;
 }
+
 
 #rectangle {
   justify-content: last baseline;
@@ -101,9 +119,12 @@ h1 {
   height:10px;
   border:1px 
 }
+
 .activity-feed {
   display: block;
-  font-size: 12px;
+  position: static;
+  font-size: 16px;
+  text-indent: -5px;
   margin: 20px;
   padding: 40px;
   bottom: -40px;
@@ -115,24 +136,50 @@ h1 {
   text-align: left;
   background-color: #dfe3ee;
   border: 1px solid;
+  border-radius: 10px;
+}
+
+#Avatar {
+  margin-right: -150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#appointment-button{
+  display: grid;
+  text-align: center;
+  margin: 10px;
+  margin-left: -10px;
+  align-items: center;
+  padding: -10px;
+  border-radius: 14px;
 }
 
 
 #user-name {
   text-align: left;
-  font-size: large;
-  padding: 10%;
+  text-indent: -15px;
+  margin-bottom: -10px;
+  font-size: 16px;
+  position: 0px;
+  line-height: 10px;
+  padding: 10px 10px;
+  justify-content: left;
   text-align: left;
 }
 
 .mentor-slider {
-  display: block;
+  display: flex;
+  position: static;
   font-size: 12px;
+  line-height: 20px;
   margin: 20px;
   padding: 10%;
   bottom: -40px;
-  min-width: 40%;
-  min-height: 40%;
+  min-width: 20%;
+  min-height: 0%;
   overflow: hidden;
   flex-direction: column;
   align-items: center;
@@ -140,22 +187,42 @@ h1 {
   text-align: left;
   background-color: #dfe3ee;
   border: 1px solid;
+  border-radius: 10px;
 }
 
 .learning-feed {
-  display: block;
+  display: flex;
+  position: static;
   font-size: 12px;
   margin: 20px;
   padding: 10%;
   bottom: -40px;
   min-width: 40%;
   min-height: 40%;
+  overflow: hidden;
+  line-height: px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: left;
+  text-align: start;
   background-color: #dfe3ee;
   border: 1px solid;
+  border-radius: 10px;
+}
+
+
+
+.caption {
+  top: auto;
+  display: flexbox;
+  flex-direction: column;
+  font-size: 12px;
+  justify-content: space-around;
+  text-align: auto;
+  align-items: auto;
+  margin: 20px;
+  padding: 10%;
 }
 
 .mentor {
@@ -167,7 +234,9 @@ h1 {
   position: relative;
   padding: 10px;
   min-width: 40%;
-  min-height: 40%;
+  min-height: 100%;
+  padding: -100%;
+  margin-top: -100px;
   bottom: -100px;
   justify-content: center;
   text-align: center;
@@ -176,21 +245,24 @@ h1 {
   display: block;
 }
 
-i{
-  position: relative;
-  size: 10px;
+#Avatar-header{
+  margin-left: 300px;
+  margin-top:-50px;
 }
 
 .mentor-footer{
   position: relative;
   padding: 10px;
   min-width: 40%;
-  min-height: 40%;
+  min-height: 100%;
+  padding: -100%;
+  margin-top: -10px;
   bottom: -100px;
   justify-content: center;
   text-align: center;
   align-items: center;
   background-color: whitesmoke;
+  display: block;
 }
 
 

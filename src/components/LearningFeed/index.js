@@ -3,6 +3,7 @@ import { Card, CardTitle, CardHeader, Container } from 'reactstrap';
 import styled from 'styled-components';
 import Slider from 'react-slick';
 
+
 const Wrapper = styled.div`
         width: 100%;
         padding: 10px;
@@ -10,7 +11,7 @@ const Wrapper = styled.div`
 `;
 
 const Header = styled.div`
-        width: 100%;
+        width: 10px;
         padding: 10px;
         margin: 20px;
 `;
@@ -27,19 +28,20 @@ export default class LearningFeed extends React.Component {
                     dots={true}
                 >
                 <Header className= "caption">
-                <text>Title:</text>
-                <text>Minute Read:</text>
-                <text>Total Views</text>
+                <text>Title: Intro to Programming 101</text>
+                <br></br>
+                <text>Minute Read: 200 hours</text>
+                <br></br>
+                <text>Total Views: 1000</text>
+                <br></br>
                 </Header>
                 <Header className= "caption">
-                <text>Title:</text>
-                <text>Minute Read:</text>
-                <text>Total Views</text>
-                </Header>
-                <Header className= "caption">
-                <text>Title:</text>
-                <text>Minute Read:</text>
-                <text>Total Views</text>
+                <text>Title: Advanced Management </text>
+                <br></br>
+                <text>Minute Read: 300 hours </text>
+                <br></br>
+                <text>Total Views: 2000</text>
+                <br></br>
                 </Header>
                 </Slider>
             </Wrapper>
