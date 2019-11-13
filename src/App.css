@@ -272,6 +272,20 @@ h2 {
   background: black;
 }
 
+.login-bottom-footer {
+  position: relative;
+  padding: 10px;
+  min-width: 40%;
+  min-height: 100%;
+  margin-top: -10px;
+  bottom: -100px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: whitesmoke;
+  display: block;
+}
+
 form {
   min-height: 100vh;
   display: flex;
